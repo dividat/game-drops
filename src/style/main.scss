@@ -1,0 +1,57 @@
+@import "drops";
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+    margin: 0;
+    line-height: 1;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    font-family: sans-serif;
+}
+
+body > div {
+    width: 100%;
+    height: 100%;
+}
+
+
+.d-GameTimer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    background-color: #05c017;
+    z-index: 11;
+}
+
+.d-LinearProgress {
+    display: flex;
+    width: 100%;
+    height: 0.5rem;
+}
+
